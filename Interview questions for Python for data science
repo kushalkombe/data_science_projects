@@ -1,0 +1,203 @@
+What is data frame in Pandas?
+What is Series?
+How to sort one a specific column in descending column of a data frame?
+When to use Bar chart and when to use histogram?
+What is use of Pandas library?
+What is use of numpy?
+What is longform of numpy and pandas?
+Is it possible to rename a column in dataframe? if yes, how?
+Is it possible to define heterogeneous elements within a list?
+Is it possible to sort data frame with 2 columns - one in ascending and other in descending order, how?
+What are ways to create data frame? (dict, list, arrays)
+Can we compare 2 NaNs?
+How can we create an empty list?
+Is it mandatory to have () to define tuples?
+What is use of tuple?
+Is list immutable?
+Is list mutable?
+Can I define list within a list? How?
+Is tuple immutable?
+Is dictionary immutable?
+Can we change index in data frame?
+Can we have hierarchycal index in dataframe?
+How do you replace NAn or zero values with median?
+How do you understand if the data distribution is normal distribution?
+How do you understand if the data distribution is Symmetrical distribution?
+How do you understand if the data distribution is bell shape distribution?
+what mean, median and mdoe in case of normal distriution?
+How do you read a data file which is seperated by ":"?
+What is difference betwween delimeter and sep parameter while reading file?
+What do you mean by csv file?
+What is 6 sigma?
+What all operations will you do in data cleansning?
+How to change current directory?
+how to check if you are in specific directory by two ways?
+how to sort numpy array in reverse order? 
+if array contains NaN, would it considered for finding out mean?
+How do you find mode of numpy array?
+without writing loop, how can you find even numbers from 2 to 10 (both included)
+how do you find out unique values and its count in numpy array?
+How do you flattern array in 1 dimensional array of 4 X 4?
+How to generate same random numbers using numpy array?
+how to add all elements of numpy array using 2 ways?
+What is restriction on adding 2 numpy arrays? 
+list out 4 ways to reverse numpy array?
+What is difference between shalow and deep copy of array?
+what is use of linspace function?
+What all advantages using numpy over list?
+- speed
+- memory
+- homogeneous elements in numpy array
+Can numpy arrray hold herogeneous elements?
+What is difference between map and applymap of pandas function?
+Can we traverse in reverse order in Pandas series? (reading from right to left)
+Is it possible to sort on index using pandas?
+How can we restrict number of default rows (5 to 10 ) to display for data frame?
+How can we change default precision displayed for pandas series?
+How to create new environment in Jupyter?
+How to switch to base environment?
+How to identify outliers?
+What do you mean by outliers?
+What are ways to impute missing values in dataframe?
+How to indetify if entire dataframe has at least one NaN?
+How to find total no of Nan in a dataframe?
+How to treat outliers?
+What is use of bar chart?
+What is use of Histogram chart?
+What is use of pie chart?
+What is use of line chart?
+What is use of scatter plot?
+What is correlation?
+What is min and max value of correlation (coefficient)?
+Why do we use t test?
+Why do we use Ch2 Square test?
+What are 2 ways to set index to data frame?
+Can we rename a column?
+Can we sort data frame on 2 column - one in ascending and one in descending order?
+What is differnce between sort_values and sort_index?
+Can series have floating index? IF yes, what is the constrain on index types?
+What is output of series.index where series is the series name?
+Can we have 4 values and 5 indexes in a dataframe?
+Can we have 5 index  and 5 values in a dataframe?
+Can we have heterogeneous data types for dataframe index?
+If a dataframe index has same index say 10,10 with value 100,200. How to do I access 100 and 200 seperately? (by making it as a LIST)
+What would be output of series1 ^ series2 where series has below values (USA	1,Germany 2, USSR 3,Japan 4) and series2 has series values below values (USA	1,Germany 2, Japan 4,Italy 5)
+how to change folder within jupyter notebook using python package?
+how to read csv file as a dataframa and set index simultaneously?
+How to set field as an index manually to a frame?
+How to ensure that dataframe shallow copy shares same memory location?
+How to hard copy dataframe? How to ensure memory locations are different?
+How to add column in a dataframe?
+What would be output of dataframe.all()? (Returns False when it finds at least one zero value)
+What is output of np.NaN + np.NaN?
+What is output of np.NaN * np.NaN?
+What is output of df.loc[:,df2.all()]? (Find out all colums having not a single zero value?
+What is output of df.loc[:,df2.any()]? (Print all columns which do not have all zeros or nan, if a particular columns contains a single non zero value, it will be displayed)
+What is command to Print only columns having at least one Nan value?
+What is output of df2.loc[:,df.isnull().all()]? Displays all columns having all NaNs
+What is outut of df2.dropna()? Display all columns which does not have single Nan value
+How to drop rows having all NaNs?
+How to drop rows having at least single NaNs? df.dropna(axis=1)
+How to check specific row/s has NaN values and drop such row/s? (df.dropna(subset=['salt','eggs'])
+What would be output of df.head(-1)?
+Can we change the default value of 5 rows for df.head and df.tail()? if yes, how? - Can not do 
+what would be the output of df.columnname.ununique?  (How many unique values are present in the given column name
+Can we apply multiple aggregate function on multiple column in a single command using pandas dataframe?  df.agg({'col1' : ['sum', 'min', 'std'], 'col2': ['mean','max','std'], 'col8':['min','max','mean','std']})
+
+Suppoer a column of a dataframe contains string numbers eg: '1','2','3'. what would be output of df['col9'].median()? Would it give and wrror or give median?
+
+How would you sort column1 in ascending order and column2 in descending order of a dataframe in one command? df.sort_values(by=['col2','col1'],ascending=[False, True])
+
+Can we add interger with NaN? If yes, what would be output of 12 + np.NaN?
+how to find mode using list? 
+	import statistics import mode 
+	mode(list) - if all values are unique it gives an error
+OR 
+To find mode in a series we use:
+df.column_name.mode()
+If we have unique values, all of them will be considered as the mode.
+
+How to display the columns of a dataframe in a specific order? for example: Col3,Col5, col1, col2,col4? 
+ans: https://stackoverflow.com/questions/13148429/how-to-change-the-order-of-dataframe-columns
+
+How to define header for line #2 while reading csv file? 
+
+Can header parameter of read_csv pandas function accepts negative values?
+
+Can we define column names (custommize) while reading csv files?
+
+Can we define index column while reading csv file using pandas package?
+
+Can we read specific columns by reading csv file?
+
+df = pd.read_csv('example.csv',usecols='a') What would be the output of this command?
+
+What is use of squeeze parameter of read_csv pandas function? (Converts dataframe intor series or one column)
+
+Can we read excel sheet refering using number 0,1 for sheet_name parameter  when the sheet is given the name say 'Employee' using read_Excel pandas function?
+
+dfe = pd.read_excel('excelfile1.xlsx', sheet_name=-3) What would be output of this command?
+
+Can we define 2 sheets at a time using read_excel pandas function? If yes, What would be the type of return data type? (collections.OrderedDict)
+
+What is use of subplot in pandas plot function?
+
+What is use of figsize in pandas plot function?
+
+In Pie graph using Pandas plot function, what is use of autopct parameter?
+
+What is command to draw boxplot using pandas function?
+
+What all inferences drawn from df.describe command? (missing values count, distribution, outliers)
+
+What is full form of KDE(Kernel Density functio : used to see the distribution along with histogram)
+
+What is difference between histogram and bar graph?
+
+What is use of alpha parameter in pandas plot function? (faint or dark values betwee 0 to 1 (dark)
+
+What is use of this command - %matplotlib inline 
+
+What is this command returns? todays_date.isocalendar()  
+
+What is command to find today's date?
+
+Can we add 12 days to current date? if yes, what is the command?
+
+Can we subtract 2 months from current date? if yes, what is the command?
+
+What is use of strptime and strftime? PRovide examples.
+
+how to get day name of a week?
+
+what is monthdelta?
+
+which library is used to plot 3D graph?
+
+Whtat is magic command? 
+What is use of %time?
+which function is used to plot multiple plot?
+which function is used to plot horizontal bar graph?
+What is difference betwee subplot and subplots function?
+how to check if matplotlib library is installed on a machine?
+howt o increase width of the graph?
+How to draw multiple graphs say 3 graphs on a single row?
+What is use of Explode in case of pie chart?
+what is use of scattter graph?
+What is difference between histogram and bar chart?
+What is default charrt when using plot of matplotlib?
+How can I create a range of dates of continuous 5 years?
+How can I create a range of dates of continuous 5 Months?
+How can I create a range of dates of continuous 5 Days?
+How can I create a range of dates of continuous 5 Minutes?
+How can I create a range of dates of continuous 5 seconds?
+
+What do you mean by Axes?(Axes: It is what we generally think of as a plot. A Figure can contain many Axes. It contains two or three (in the case of 3D) Axis objects. Each Axes has a title, an x-label and a y-label.)
+
+
+
+
+
+
+
+
